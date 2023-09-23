@@ -57,3 +57,33 @@ header {
 .button:hover {
     background-color: #555;
 }
+
+/* CSS for the Social Media Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media-icons {
+    margin-top: 10px;
+}
+
+.social-media-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media-icons img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.social-media-icons a:hover {
+    opacity: 0.7;
+}
+
+/* Adjust styling as needed */
