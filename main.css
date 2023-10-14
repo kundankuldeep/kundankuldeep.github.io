@@ -87,3 +87,25 @@ footer {
 }
 
 /* Adjust styling as needed */
+.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin-right: 20px; /* Adjust this value to control the space between links */
+}
+
+/* Add a floating effect when hovering over the links */
+.footer-nav li a {
+    text-decoration: none;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+
+    /* Create the floating effect */
+    transform: translateY(0);
+}
+
+.footer-nav li a:hover {
+    transform: translateY(-5px); /* Adjust the value to control the amount of "float" */
+}
